@@ -1,0 +1,11 @@
+name: vinaflex311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openbabel          # obabel CLI
+  - vina               # AutoDock Vina (CPU)
+  - rdkit              # used in your notebook
+  - pip
+  - pip:
+      - meeko==0.6.1   # flexible-receptor prep
